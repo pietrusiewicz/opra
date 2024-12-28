@@ -3,7 +3,7 @@
 
 <li>
   <ul>
-    <li>docker run -d --name opera-container --rm --privileged -e DISPLAY=host.docker.internal:0 debian:bullseye sleep infinity</li>
+    <li><code>docker run -d --name opera-container --rm --privileged -e DISPLAY=host.docker.internal:0 debian:bullseye sleep infinity</code></li>
     <li>docker exec -it opera-container bash</li>
   </ul>
 </li>
