@@ -30,8 +30,7 @@ wsl --install
     <p>Follow the steps below to set up Opera browser in a Docker container.</p>
     <h2>Step 0: Start the Docker Container</h2>
     <p>First, run the following command to start the Docker container:</p>
-    <pre><code>
-    docker build -t opera-container .
+    <pre><code>docker build -t opera-container .
     </code></pre>
     <pre><code>
 docker run -d --name opera-container --rm --privileged -e DISPLAY=host.docker.internal:0 debian:bullseye sleep infinity
